@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Jekyll v4.1.1">
+    <title>MEDICINE DELIVERY</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/4.5/examples/album/">
+
+    <!-- Bootstrap core CSS -->
+<link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style>
+    <!-- Custom styles for this template -->
+    <link href="album.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+
+    <!-- <script>
+      function buying(i){
+        //구매관련한 부분에 있어 답변이 없으셔서 제가 만들어야한다면 만들 예정이며 
+        //결제 결제 진행 후 주소를 받을 예정이므로 주소와 관련된 부분은 아직 존재하지 않습니다.
+      }
+      function igd(i){
+        var ary = ["아세트아미노펜 500mg", 
+                    "디메티콘 25mg, 셀룰라제 50mg, 판크레아틴 175mg, 우담즙건조엑스 25mg",
+                    "아세트아미노펜30mg, 카페인무수물50mg, 이소프로안티피린150mg",
+                    "디옥타헤드랄스멕타이트 3g/20mL",
+                    "세티리진염산염 10mg",
+                    "살부타몰황산염 100g",
+                    "클로르헥시딘아세트산염 0.05mg",
+                    "염산옥테니딘 1mg, 페녹시에탄올 20mg",
+                    "약이 아닌 물품은 성분이 제공되지 않습니다."];
+        alert(ary[i]);
+      }
+    </script> -->
+
+
+  </head>
+  <body>
+    <div class="navbar navbar-dark bg-dark shadow-sm">
+      <div class="container d-flex justify-content-between">
+        <a href="#" class="navbar-brand d-flex align-items-center">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path fill="none" d="M0 0H24V24H0z"/><path d="M19.778 4.222c2.343 2.343 2.343 6.142 0 8.485l-7.07 7.071c-2.344 2.343-6.143 2.343-8.486 0-2.343-2.343-2.343-6.142 0-8.485l7.07-7.071c2.344-2.343 6.143-2.343 8.486 0zm-5.656 11.313L8.465 9.878l-2.829 2.83c-1.562 1.561-1.562 4.094 0 5.656 1.562 1.562 4.095 1.562 5.657 0l2.829-2.83zm4.242-9.899c-1.562-1.562-4.095-1.562-5.657 0L9.88 8.464l5.657 5.657 2.828-2.828c1.562-1.562 1.562-4.095 0-5.657z" fill="rgba(255,255,255,1)"/></svg>
+          <strong>&nbsp;&nbsp;MEDICINE DELIVERY</strong>
+        </a>
+      </div>
+    </div>
+  </header>
+  
+  <main role="main">
+  
+    <section class="jumbotron text-center">
+      <div class="container">
+        <h1><b>몸 상태가 좋지 않은 당신!</b></h1>
+        <p class="lead text-muted"><br>약을 사러나가기 번거로우시다고요? <br> 인터넷 속 작은 약국을 통해 약을 집에서 받아보세요!</p>
+      </div>
+    </section>
+  
+    <div id="medRow" class="row"> 
+      
+    </div>
+    <div class="row" id="med_list">
+      <div class="col-md-3">
+        <div class="card mb-4 shadow-sm">
+          <img class="bd-placeholder-img med_img" src="media/med_13.png" alt="타이레놀 500mg (해열진통제)" width="100%" height="500">
+          <div class="card-body">
+            <!-- <p class="card-text"><b>타이레놀 500mg (해열진통제)</b>  <hr>가격 : <b>20 ETH</b><br> 효능 : 감기로 인한 발열, 두통, 근육통 등 </p> -->
+            <span class="med_title"><b>test_title</b></span> <hr>
+            가격 : <span class="med_price">test_price</span> ETH <br>
+            효능 : <span class="med_info">test_info</span><br>
+            수량&nbsp;&nbsp; <input class="med_cnt" size="1" value="1">
+            <div class="d-flex justify-content-between align-items-center">
+              <div class="btn-group">
+                <button type="button" class="btn btn-sm btn-outline-secondary med_buy_btn">구매</button>
+                <button type="button" class="btn btn-sm btn-outline-secondary med_info_btn"
+                  >성분</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+
+  
+  </main>
+
+  <div id="delRow" class="row">
+    <!-- PETS LOAD HERE -->
+  </div>
+  <div id="delTemplete">
+  <h5 class="collect_product" type="text"></h5>
+  <h5 class="start_delivery" type="text"></h5>
+  <h5 class="complet_delivery" type="text"></h5>
+  </div>
+  
+  <footer class="text-muted">
+    <div class="container">
+      <p class="float-right">
+        <a href="#">Back to top</a>
+      </p>
+    </div>
+  </footer>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script>window.jQuery || document.write('<script src="../assets/js/vendor/jquery.slim.min.js"><\/script>')</script><script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
+  
+    <!--<div class="container">
+      <div class="row">
+        <div class="col-xs-12 col-sm-8 col-sm-push-2">
+          <h1 class="text-center">Pete's Pet Shop</h1>
+          <hr/>
+          <br/>
+        </div>
+      </div>
+
+      <div id="petsRow" class="row"> //  PETS LOAD HERE
+      </div>
+    </div>
+
+    <div id="petTemplate" style="display: none;">
+      <div class="col-sm-6 col-md-4 col-lg-3">
+        <div class="panel panel-default panel-pet">
+          <div class="panel-heading">
+            <h3 class="panel-title">Scrappy</h3>
+          </div>
+          <div class="panel-body">
+            <img alt="140x140" data-src="holder.js/140x140" class="img-rounded img-center" style="width: 100%;" src="https://animalso.com/wp-content/uploads/2017/01/Golden-Retriever_6.jpg" data-holder-rendered="true">
+            <br/><br/>
+            <strong>Breed</strong>: <span class="pet-breed">Golden Retriever</span><br/>
+            <strong>Age</strong>: <span class="pet-age">3</span><br/>
+            <strong>Location</strong>: <span class="pet-location">Warren, MI</span><br/><br/>
+            <button class="btn btn-default btn-adopt" type="button" data-id="0">Adopt</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <br><br>
+    <input type="text" pattern="[0-9.]+" class="deposit_amount" id="deposit_text" placeholder="Deposit Amount in Ether"/>
+    <button class="button btn-sm" id="deposit_btn">DEPOSIT to Contract</button><br>
+    <input type="text" pattern="[0-9.]+" class="withdraw_amount" id="withdraw_text" placeholder="Withdraw Amount in Ether"/>
+    <button class="button btn-sm" id="withdraw_btn">Withdraw to Contract</button><br>
+    <input type="text" pattern="[0-9.]+" class="balance" id="balance_text" placeholder="0"/>
+    <button class="button btn-sm" id="balance_btn">BALANCE</button><br>
+
+    <br><br>
+    <h3>배송 정보</h3><br>-->
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/web3.min.js"></script>
+    <script src="js/truffle-contract.js"></script>
+    <script src="js/app.js"></script>
+  </body>
+</html>

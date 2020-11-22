@@ -1,0 +1,100 @@
+[
+    {
+        "id": 0,
+        "name": "타이레놀 500mg (해열진통제)",
+        "picture": "../media/med_1.png",
+        "efc": "아세트아미노펜 500mg",
+        "efc1": "효능 : 감기로 인한 발열, 두통, 근육통 등",
+        "cost": 20
+    },
+    {
+        "id": 1,
+        "name": "다이제스트 정 (소화제)",
+        "picture": "media/med_2.png",
+        "efc": "디메티콘 25mg, 셀룰라제 50mg, 판크레아틴 175mg, 우담즙건조엑스 25mg",
+        "efc1": "효능 : 소화불량, 과식, 체함",
+        "cost": 20
+    },
+    {
+        "id": 2,
+        "name": "게보린 (소염 진통제)",
+        "picture": "media/med_3.png",
+        "efc": "아세트아미노펜30mg, 카페인무수물50mg, 이소프로안티피린150mg",
+        "efc1": "효능 : 두통, 치통, 생리통, 관절통",
+        "cost": 20
+    },
+
+    {
+        "id": 3,
+        "name": "스멕타 현탁액 20ML (지사제)",
+        "picture": "media/med_4.png",
+        "efc": "디옥타헤드랄스멕타이트 3g/20mL",
+        "efc1": "효능 : 급성/만성 설사, 식도, 위 통증 완화",
+        "cos,t": 20
+    },
+    {
+        "id": 4,
+        "name": "신일세티리진정 (급성 두드러기약)",
+        "picture": "media/med_5.png",
+        "efc": "세티리진염산염 10mg",
+        "efc1": "효능 : 알레르기성 비염, 알레르기성 결막염, 만성 특발성 두드러기, 피부 소양증",
+        "cost": 20
+    },
+    {
+        "id": 5,
+        "name": "벤토린에보할러 (천식 흡입기)",
+        "picture": "media/med_6.png",
+        "efc": "살부타몰황산염 100g",
+        "efc1": "효능 : 기도폐쇄성 장애에 의한 호흡곤란, 천식",
+        "cost": 20
+    },
+    {
+        "id": 6,
+        "name": "가스부틴정",
+        "picture": "media/med_10.png",
+        "efc": "Misoprostol　미소프로스톨　200μg",
+        "efc1": "효능 : 감기로 인한 발열, 두통, 근육통 등",
+        "cost": 20
+    },
+    {
+        "id": 7,
+        "name": "감바로과립",
+        "picture": "media/med_11.png",
+        "efc": "Caffeine Anhydrous　카페인무수물　50mg, Chlorpheniramine Maleate　클로르페니라민말레산염,　2.5mg Cinnamon Bark　계피　280mg",
+        "efc1": "효능 : 감기로 인한 발열, 두통, 근육통 등",
+        "cost": 20
+    },
+    {
+        "id": 8,
+        "name": "건치환",
+        "picture": "media/med_12.png",
+        "efc": "Angelica Gigas Root　당귀　62.5mg, Cnidium Rhizome　천궁　62.5mg, Coptis Rhizome　황련　62.5mg",
+        "efc1": "효능 : 감기로 인한 발열, 두통, 근육통 등",
+        "cost": 20
+    },
+
+    {
+        "id": 9,
+        "name": "더마세이프 멸균거즈",
+        "picture": "media/med_7.png",
+        "efc": "클로르헥시딘아세트산염 0.05mg",
+        "efc1": "효능 : 경도화상,열상 및 찰과상 등에 사용",
+        "cost": 10
+    },
+    {
+        "id": 10,
+        "name": "옥테니셉트액 (상처 소독제)",
+        "picture": "media/med_8.png",
+        "efc": "염산옥테니딘 1mg, 페녹시에탄올 20mg",
+        "efc1": "효능 : 작은 상처부위의 단기적인소독",
+        "cost": 10
+    },
+    {
+        "id": 11,
+        "name": "지혈대",
+        "picture": "media/med_9.png",
+        "efc": "약이 아닌 물품은 성분이 제공되지 않습니다.",
+        "efc1": "효능 : 과다 출혈시 구급처치, 출혈예방",
+        "cost": 10
+    }
+]

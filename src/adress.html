@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>주소 입력</title>
+        <script>
+            function fin(){
+
+                alert("감사합니다. 승인버튼 누르면 결제가 완료됩니다.");
+                window.close();
+            }
+        </script>
+    </head>
+    <body>
+        <h3>배송 받으실 주소를 입력해주세요.</h3><hr><br>
+        <b>받으시는 분 성함</b> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" id="input_name" size="6"><br>
+        <b>받으시는 분 전화번호</b> <input type="text" id="input_num"><br>
+        <b>주소 (상세주소 포함)</b> &nbsp;<input type="text" id="input_address" size="55"><br><br><hr><br>
+        <input type="button" id="finish_btn" onclick="fin()" value="완료">
+    </body>
+</html>
