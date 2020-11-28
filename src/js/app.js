@@ -73,10 +73,11 @@ App = {
 
   bindEvents: function() {
     $(document).on('click', '.med_buy_btn', App.handleAdopt);
+    $(document).on('click', '.med_info_btn', App.medInfomation);
 
-    $(document).on('click', '#deposit_btn', App.handleDeposit);
-    $(document).on('click', '#withdraw_btn', App.handleWithdraw);
-    $(document).on('click', '#balance_btn', App.handleBalance);
+    // $(document).on('click', '#deposit_btn', App.handleDeposit);
+    // $(document).on('click', '#withdraw_btn', App.handleWithdraw);
+    // $(document).on('click', '#balance_btn', App.handleBalance);
   },
 
   // 결제시 어떤 동작 실행
@@ -121,6 +122,24 @@ App = {
       }
     });
   },
+
+  medInfomation: function(event){
+    event.preventDefault();
+
+    var mId = parseInt($(event.target).data('id'));
+
+    $.getJSON('../mdcs.json', function(data){
+      for(var i=0; i<data.length; i++){
+        if(i == mId){
+          alert(data[mId].efc);
+        }
+      }          
+          // delTemplete.append(data[i].collect +"<br></br>");
+
+          return;
+
+     });
+   },
 
   handleAdopt: function(event) {
     event.preventDefault();
