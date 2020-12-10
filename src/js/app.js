@@ -8,20 +8,32 @@ App = {
   init: async function() {
    // Load pets.
    $.getJSON('../mdcs.json', function(data) {
-     var petsRow = $('#medRow');
-     var petTemplate = $('#med_list');
+     var medRow = $('#medRow');
+     var medTemplate = $('#med_list');
 
      for (i = 0; i < data.length; i ++) {
-       petTemplate.find('.med_title').text(data[i].name);
-       petTemplate.find('img').attr('src', data[i].picture);
-       petTemplate.find('.med_buy_btn').attr('data-id', data[i].id);
-       petTemplate.find('.med_info_btn').attr('data-id', data[i].id);
-       petTemplate.find('.med_price').text(data[i].cost);
-       petTemplate.find('.med_info').text(data[i].efc1);
+       medTemplate.find('.med_title').text(data[i].name);
+       medTemplate.find('img').attr('src', data[i].picture);
+       medTemplate.find('.med_buy_btn').attr('data-id', data[i].id);
+       medTemplate.find('.med_info_btn').attr('data-id', data[i].id);
+       medTemplate.find('.med_price').text(data[i].cost);
+       medTemplate.find('.med_info').text(data[i].efc1);
 
-       petsRow.append(petTemplate.html());
+       medRow.append(medTemplate.html());
      }
    });
+   $.getJSON('../med_info_public_data.json', function(data) {
+    var medListRow = $('.medListRow');
+    var medList = $('.medList');
+
+    for (i = 0; i < data.length; i ++) {
+      medList.find('.med_list_name').text(data[i].MEDICINE_NAME);
+      medList.find('.med_list_info').text(data[i].MEDICINE_INFO);
+      medList.find('.med_list_price').text(data[i].cost);
+      medList.find('.med_list_buy_btn').attr('data-id', data[i].id);
+      medListRow.append(medList.html());
+    }
+  });
    return await App.initWeb3();
  },
 
@@ -74,6 +86,7 @@ App = {
   bindEvents: function() {
     $(document).on('click', '.med_buy_btn', App.handleAdopt);
     $(document).on('click', '.med_info_btn', App.medInfomation);
+    $(document).on('click', '.med_list_buy_btn', App.handleAdoptList);
 
     // $(document).on('click', '#deposit_btn', App.handleDeposit);
     // $(document).on('click', '#withdraw_btn', App.handleWithdraw);
@@ -162,7 +175,40 @@ App = {
           var med_cnt = parseInt(med_cnt_tmp);
           var med_cnt_price = price*med_cnt;
           var amount = parseFloat(med_cnt_price)*Math.pow(10,18);
-         //  alert(amount);
+          // 결제창
+          App.setDelivery();
+          
+          return adoptionInstance.adopt(mId, {value:`${amount}`, from:account, to:adoptionInstance.address});
+     
+       }).then(function(result) { 
+          return App.markAdopted(); 
+       }).catch(function(err) { 
+          console.log(err.message); 
+       }); 
+    }); 
+  },
+
+  handleAdoptList: function(event) {
+    event.preventDefault();
+
+    var mId = parseInt($(event.target).data('id'));
+
+    var adoptionInstance; 
+    web3.eth.getAccounts(function(error, accounts) { 
+       if (error) { console.log(error); } 
+       var account = accounts[0]; 
+       alert("주소를 입력해주세요");
+       newWin = window.open("/adress.html", "myWin", "left=300,top=300,width=800,height=300");
+    
+       App.contracts.Adoption.deployed().then(function(instance) { 
+          adoptionInstance = instance; 
+          
+          // Execute adopt as a transaction by sending account 
+          var price = $('.med_list_price').eq(mId).text();
+          var med_cnt_tmp = $('.med_list_cnt').eq(mId).val();
+          var med_cnt = parseInt(med_cnt_tmp);
+          var med_cnt_price = price*med_cnt;
+          var amount = parseFloat(med_cnt_price)*Math.pow(10,18);
           // 결제창
           App.setDelivery();
           

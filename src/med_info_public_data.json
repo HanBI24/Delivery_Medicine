@@ -1,0 +1,1400 @@
+[
+  {
+    "id": 0,
+    "MEDICINE_NAME": "둘코락스좌약",
+    "MEDICINE_INFO": "비사코딜(좌제)",
+    "cost": 20
+  },
+  {
+    "id": 1,
+    "MEDICINE_NAME": "엘린플러스크림20g/Tube",
+    "MEDICINE_INFO": "클로트리마졸10mg/g, 히드로코르티손 10mg/g",
+    "cost": 20
+  },
+  {
+    "id": 2,
+    "MEDICINE_NAME": "반델크림10g/Tube",
+    "MEDICINE_INFO": "히드로코르티손 프로부테이트 1mg/g",
+    "cost": 20
+  },
+  {
+    "id": 3,
+    "MEDICINE_NAME": "후메론점안액 5ml/Btl",
+    "MEDICINE_INFO": "플루오로메톨론 1mg/ml",
+    "cost": 20
+  },
+  {
+    "id": 4,
+    "MEDICINE_NAME": "케토톱플라스타6매",
+    "MEDICINE_INFO": "케토프로펜 30mg/sheet",
+    "cost": 20
+  },
+  {
+    "id": 5,
+    "MEDICINE_NAME": " 에스로반연고 10g/Tube",
+    "MEDICINE_INFO": "무피로신 20mg/g",
+    "cost": 20
+  },
+  {
+    "id": 6,
+    "MEDICINE_NAME": "티어드롭점안액20mg/mL",
+    "MEDICINE_INFO": "포비돈 20mg/ml",
+    "cost": 20
+  },
+  {
+    "id": 7,
+    "MEDICINE_NAME": "스테로신지크림 15g/Tube",
+    "MEDICINE_INFO": "베타메타손디프로피오네이트 640μg/g, 겐타마이신황산염 1mg/g",
+    "cost": 20
+  },
+  {
+    "id": 8,
+    "MEDICINE_NAME": "애니존크림 15g/Tube",
+    "MEDICINE_INFO": "테르비나핀염산염 10mg/g",
+    "cost": 20
+  },
+  {
+    "id": 9,
+    "MEDICINE_NAME": "토라미신점안액  5ml/B",
+    "MEDICINE_INFO": "토브라마이신 3mg/ml",
+    "cost": 20
+  },
+  {
+    "id": 10,
+    "MEDICINE_NAME": "유그린 크림 50g/Tube",
+    "MEDICINE_INFO": "우레아 200mg/g",
+    "cost": 20
+  },
+  {
+    "id": 11,
+    "MEDICINE_NAME": "영풍아시클로버크림5g/Tube(아시클로버)",
+    "MEDICINE_INFO": "아시클로버50mg/g",
+    "cost": 20
+  },
+  {
+    "id": 12,
+    "MEDICINE_NAME": "대한50%포도당주100ml/Btl",
+    "MEDICINE_INFO": "포도당 50g/100ml",
+    "cost": 20
+  },
+  {
+    "id": 13,
+    "MEDICINE_NAME": "중외5%포도당생리식염액 1L/Bag",
+    "MEDICINE_INFO": "포도당 50g/L, 염화나트륨 9g/L",
+    "cost": 20
+  },
+  {
+    "id": 14,
+    "MEDICINE_NAME": "중외5%포도당주사액 1L/Bag",
+    "MEDICINE_INFO": "포도당 50g/L",
+    "cost": 20
+  },
+  {
+    "id": 15,
+    "MEDICINE_NAME": "코다론주사 3ml/A",
+    "MEDICINE_INFO": "아미오다론염산염 150mg/ml",
+    "cost": 20
+  },
+  {
+    "id": 16,
+    "MEDICINE_NAME": "아빌리파이메인테나주300mg 1.5mL/관",
+    "MEDICINE_INFO": "아리피프라졸일수화물 312mg(아리피프라졸로서 300mg)",
+    "cost": 20
+  },
+  {
+    "id": 17,
+    "MEDICINE_NAME": "아빌리파이메인테나주400mg 2ml/관",
+    "MEDICINE_INFO": "아리피프라졸일수화물 416mg(아리피프라졸로서 400mg)",
+    "cost": 20
+  },
+  {
+    "id": 18,
+    "MEDICINE_NAME": "디페인주사(디클로페낙나트륨)_(75mg/2mL)",
+    "MEDICINE_INFO": "디클로페낙나트륨 37.5mg/ml",
+    "cost": 20
+  },
+  {
+    "id": 19,
+    "MEDICINE_NAME": "제일덱사메타손주사액 1mL/A",
+    "MEDICINE_INFO": "덱사메타손포스페이트이나트륨 5mg/ml",
+    "cost": 20
+  },
+  {
+    "id": 20,
+    "MEDICINE_NAME": "명인디아제팜주 2ml/A",
+    "MEDICINE_INFO": "디아제팜 5mg/ml",
+    "cost": 20
+  },
+  {
+    "id": 21,
+    "MEDICINE_NAME": "대한에피네프린주사액 1ml/A ",
+    "MEDICINE_INFO": "에피네프린 1mg/ml",
+    "cost": 20
+  },
+  {
+    "id": 22,
+    "MEDICINE_NAME": "하브릭스주 (1ml)",
+    "MEDICINE_INFO": "A형간염바이러스항원(균주명:HM175주)　1440분류되지 않는 함량단위",
+    "cost": 20
+  },
+  {
+    "id": 23,
+    "MEDICINE_NAME": "란투스주솔로스타300IU/3ml",
+    "MEDICINE_INFO": "인슐린글라진 10.9134mg(휴먼인슐린으로서 300IU)",
+    "cost": 20
+  },
+  {
+    "id": 24,
+    "MEDICINE_NAME": "명인할로페리돌주사 1ml/A",
+    "MEDICINE_INFO": "할로페리돌 5mg/ml",
+    "cost": 20
+  },
+  {
+    "id": 25,
+    "MEDICINE_NAME": "대한하트만액 1L/Bag",
+    "MEDICINE_INFO": "염화칼슘 200mg/L, 염화칼륨 300mg/L, 염화나트륨 6g/L, 락트산나트륨 3.1g/L",
+    "cost": 20
+  },
+  {
+    "id": 26,
+    "MEDICINE_NAME": "대한하트만덱스주사액 1L/Bag",
+    "MEDICINE_INFO": "하트만액, 포도당 50g/L",
+    "cost": 20
+  },
+  {
+    "id": 27,
+    "MEDICINE_NAME": "히스판주 20mg/ml  ",
+    "MEDICINE_INFO": "스코폴라민",
+    "cost": 20
+  },
+  {
+    "id": 28,
+    "MEDICINE_NAME": "인베가서스티나주사 117mg",
+    "MEDICINE_INFO": "팔리페리돈 팔미테이트 117mg",
+    "cost": 20
+  },
+  {
+    "id": 29,
+    "MEDICINE_NAME": "인베가서스티나주사 156mg",
+    "MEDICINE_INFO": "팔리페리돈 팔미테이트 156mg",
+    "cost": 20
+  },
+  {
+    "id": 30,
+    "MEDICINE_NAME": "인베가서스티나주사 234mg",
+    "MEDICINE_INFO": "팔리페리돈 팔미테이트 234mg",
+    "cost": 20
+  },
+  {
+    "id": 31,
+    "MEDICINE_NAME": "인베가트린자주사 273mg",
+    "MEDICINE_INFO": "팔리페리돈 팔미테이트 273mg",
+    "cost": 20
+  },
+  {
+    "id": 32,
+    "MEDICINE_NAME": "인베가트린자주사 410.3mg",
+    "MEDICINE_INFO": "팔리페리돈 팔미테이트 410.3mg",
+    "cost": 20
+  },
+  {
+    "id": 33,
+    "MEDICINE_NAME": "인베가트린자주사 546mg",
+    "MEDICINE_INFO": "팔리페리돈 팔미테이트 546mg",
+    "cost": 20
+  },
+  {
+    "id": 34,
+    "MEDICINE_NAME": "인베가트린자주사 819mg",
+    "MEDICINE_INFO": "팔리페리돈 팔미테이트 819mg",
+    "cost": 20
+  },
+  {
+    "id": 35,
+    "MEDICINE_NAME": "대한리도카인염산염수화물2%주 20ml/V",
+    "MEDICINE_INFO": "리도카인염산염수화물 21.33mg/ml",
+    "cost": 20
+  },
+  {
+    "id": 36,
+    "MEDICINE_NAME": "아티반주사 0.5ml/A",
+    "MEDICINE_INFO": "로라제팜 2mg/0.5ml",
+    "cost": 20
+  },
+  {
+    "id": 37,
+    "MEDICINE_NAME": "멕쿨주 2ml/A",
+    "MEDICINE_INFO": "메토클로프라미드염산염 10mg/2ml",
+    "cost": 20
+  },
+  {
+    "id": 38,
+    "MEDICINE_NAME": "대한멸균생리식염수 1L/Bag",
+    "MEDICINE_INFO": "염화나트륨 9g/L",
+    "cost": 20
+  },
+  {
+    "id": 39,
+    "MEDICINE_NAME": "휴온스클로르페니라민말레산염주사액 2ml/A",
+    "MEDICINE_INFO": "클로르페니라민말레산염 4mg/2ml",
+    "cost": 20
+  },
+  {
+    "id": 40,
+    "MEDICINE_NAME": "제일티아민염산염주사액 2ml/A",
+    "MEDICINE_INFO": "티아민염산염 50mg/2ml",
+    "cost": 20
+  },
+  {
+    "id": 41,
+    "MEDICINE_NAME": "판비콤프주 2ml/A",
+    "MEDICINE_INFO": "비오틴 500μg, 시아노코발라민 8μg, 덱스판테놀 6mg, 니코틴산아미드 40mg, 피리독신염산염 4mg, 리보플라빈포스페이트나트륨 5.53mg, 티아민염산염 10mg",
+    "cost": 20
+  },
+  {
+    "id": 42,
+    "MEDICINE_NAME": "삼남아세트아미노펜정500mg",
+    "MEDICINE_INFO": "아세트아미노펜 500mg",
+    "cost": 20
+  },
+  {
+    "id": 43,
+    "MEDICINE_NAME": "타세놀이알서방정650mg",
+    "MEDICINE_INFO": "아세트아미노펜 650mg",
+    "cost": 20
+  },
+  {
+    "id": 44,
+    "MEDICINE_NAME": "환인아캄프로세이트정 333mg",
+    "MEDICINE_INFO": "아캄프로세이트칼슘 333mg",
+    "cost": 20
+  },
+  {
+    "id": 45,
+    "MEDICINE_NAME": "칼론정 20mg",
+    "MEDICINE_INFO": "아플로쿠알론 20mg",
+    "cost": 20
+  },
+  {
+    "id": 46,
+    "MEDICINE_NAME": "아기오과립 6g/P",
+    "MEDICINE_INFO": "아기오쿨과립 4.08g",
+    "cost": 20
+  },
+  {
+    "id": 47,
+    "MEDICINE_NAME": "아고틴정 25MG",
+    "MEDICINE_INFO": "아고멜라틴 25mg",
+    "cost": 20
+  },
+  {
+    "id": 48,
+    "MEDICINE_NAME": "아모디핀정 5mg",
+    "MEDICINE_INFO": "암로디핀캄실산염 7.841mg(암로디핀으로서 5mg)",
+    "cost": 20
+  },
+  {
+    "id": 49,
+    "MEDICINE_NAME": "네시나정 25mg",
+    "MEDICINE_INFO": "알로글립틴벤조산염 34mg",
+    "cost": 20
+  },
+  {
+    "id": 50,
+    "MEDICINE_NAME": " 넥스팜염산암부록솔정 30mg",
+    "MEDICINE_INFO": "암브록솔염산염 30mg",
+    "cost": 20
+  },
+  {
+    "id": 51,
+    "MEDICINE_NAME": "에이씰린캡슐 250mg",
+    "MEDICINE_INFO": "아목시실린 250mg",
+    "cost": 20
+  },
+  {
+    "id": 52,
+    "MEDICINE_NAME": "자나팜정 0.25mg",
+    "MEDICINE_INFO": "알프라졸람 0.25mg",
+    "cost": 20
+  },
+  {
+    "id": 53,
+    "MEDICINE_NAME": "자나팜정 0.5mg",
+    "MEDICINE_INFO": "알프라졸람 0.5mg",
+    "cost": 20
+  },
+  {
+    "id": 54,
+    "MEDICINE_NAME": "아빌리파이정 5mg",
+    "MEDICINE_INFO": "아리피프라졸 5mg",
+    "cost": 20
+  },
+  {
+    "id": 55,
+    "MEDICINE_NAME": "아빌리파이정 15mg",
+    "MEDICINE_INFO": "아리피프라졸 15mg",
+    "cost": 20
+  },
+  {
+    "id": 56,
+    "MEDICINE_NAME": "아빌리파이정10mg",
+    "MEDICINE_INFO": "아리피프라졸 10mg",
+    "cost": 20
+  },
+  {
+    "id": 57,
+    "MEDICINE_NAME": "아빌리파이정 2mg",
+    "MEDICINE_INFO": "아리피프라졸 2mg",
+    "cost": 20
+  },
+  {
+    "id": 58,
+    "MEDICINE_NAME": "영진아스피린장용정_(0.1g/1정)",
+    "MEDICINE_INFO": "아스피린 100mg",
+    "cost": 20
+  },
+  {
+    "id": 59,
+    "MEDICINE_NAME": "아미썰정 400mg",
+    "MEDICINE_INFO": "아미설피리드 400mg",
+    "cost": 20
+  },
+  {
+    "id": 60,
+    "MEDICINE_NAME": "아미썰정 100mg",
+    "MEDICINE_INFO": "아미설피리드 100mg",
+    "cost": 20
+  },
+  {
+    "id": 61,
+    "MEDICINE_NAME": "아미썰정 200mg",
+    "MEDICINE_INFO": "아미썰피리드 200mg",
+    "cost": 20
+  },
+  {
+    "id": 62,
+    "MEDICINE_NAME": "아토목신캡슐 10mg",
+    "MEDICINE_INFO": "아토목세틴염산염11.43mg(아토목세틴으로서 10mg)",
+    "cost": 20
+  },
+  {
+    "id": 63,
+    "MEDICINE_NAME": "아토목신캡슐 25mg",
+    "MEDICINE_INFO": "아토목세틴염산염 28.57mg(아토목세틴으로서 25mg)",
+    "cost": 20
+  },
+  {
+    "id": 64,
+    "MEDICINE_NAME": "아토목신캡슐 40mg",
+    "MEDICINE_INFO": "아토목세틴염산염 45.71mg(아토목세틴으로서 40mg)",
+    "cost": 20
+  },
+  {
+    "id": 65,
+    "MEDICINE_NAME": "명인염산아미트리프틸린정 10mg",
+    "MEDICINE_INFO": "아미트리프틸린염산염 10mg",
+    "cost": 20
+  },
+  {
+    "id": 66,
+    "MEDICINE_NAME": "에트라빌25mg정",
+    "MEDICINE_INFO": "아미트리프틸린염산염 25mg",
+    "cost": 20
+  },
+  {
+    "id": 67,
+    "MEDICINE_NAME": "파목클정375mg(아목시실린.클라불란산칼륨(2:1))_(1정)",
+    "MEDICINE_INFO": "아목시실린나트륨 250mg, 클라불란산칼륨 125mg",
+    "cost": 20
+  },
+  {
+    "id": 68,
+    "MEDICINE_NAME": "비페란캡슐 7.5mg/C",
+    "MEDICINE_INFO": "비페닐디메틸디카르복실레이트 7.5mg",
+    "cost": 20
+  },
+  {
+    "id": 69,
+    "MEDICINE_NAME": "헤파셀정",
+    "MEDICINE_INFO": "비페닐디메틸디카르복실레이트 25mg",
+    "cost": 20
+  },
+  {
+    "id": 70,
+    "MEDICINE_NAME": "베아제정",
+    "MEDICINE_INFO": "비오디아스타제2000 50mg, 리파제100 15mg, 판세라제SS 30mg, 판크레아틴장용과립 78.6mg, 판프로신SS 20mg, 시메티콘 40mg, 우르소데옥시콜산 10mg",
+    "cost": 20
+  },
+  {
+    "id": 71,
+    "MEDICINE_NAME": "환인벤즈트로핀정_(1mg/1정)",
+    "MEDICINE_INFO": "벤즈트로핀메실산염 1mg",
+    "cost": 20
+  },
+  {
+    "id": 72,
+    "MEDICINE_NAME": "명인벤즈트로핀메실레이트정2mg",
+    "MEDICINE_INFO": "벤즈트로핀메실산염 2mg",
+    "cost": 20
+  },
+  {
+    "id": 73,
+    "MEDICINE_NAME": "유니네콜정 25mg",
+    "MEDICINE_INFO": "염화베타네콜 25mg",
+    "cost": 20
+  },
+  {
+    "id": 74,
+    "MEDICINE_NAME": "신일비사코딜정 5mg/T",
+    "MEDICINE_INFO": "비사코딜 5mg",
+    "cost": 20
+  },
+  {
+    "id": 75,
+    "MEDICINE_NAME": "로나센정4mg",
+    "MEDICINE_INFO": "블로난세린 4mg",
+    "cost": 20
+  },
+  {
+    "id": 76,
+    "MEDICINE_NAME": "로나센정8mg(블로난세린)_(8mg/1정)",
+    "MEDICINE_INFO": "블로난세린 8mg",
+    "cost": 20
+  },
+  {
+    "id": 77,
+    "MEDICINE_NAME": "넬슨이부프로펜정 400mg",
+    "MEDICINE_INFO": "이부프로펜 400mg",
+    "cost": 20
+  },
+  {
+    "id": 78,
+    "MEDICINE_NAME": "헬스피온서방정150mg",
+    "MEDICINE_INFO": "부프로피온염산염 150mg",
+    "cost": 20
+  },
+  {
+    "id": 79,
+    "MEDICINE_NAME": "환인부스피론정10mg",
+    "MEDICINE_INFO": "부스피론염산염 10mg",
+    "cost": 20
+  },
+  {
+    "id": 80,
+    "MEDICINE_NAME": "레피졸정15mg(아리피프라졸)_(15mg/1정)",
+    "MEDICINE_INFO": "아리피프라졸 15mg",
+    "cost": 20
+  },
+  {
+    "id": 81,
+    "MEDICINE_NAME": "카터정25mg",
+    "MEDICINE_INFO": "카르베딜롤 25mg",
+    "cost": 20
+  },
+  {
+    "id": 82,
+    "MEDICINE_NAME": "카마제핀씨알정300mg",
+    "MEDICINE_INFO": "카르바마제핀 300mg",
+    "cost": 20
+  },
+  {
+    "id": 83,
+    "MEDICINE_NAME": "세노바정10mg",
+    "MEDICINE_INFO": "세티리진염산염 10mg",
+    "cost": 20
+  },
+  {
+    "id": 84,
+    "MEDICINE_NAME": "명인세파클러캡슐(세크론캡슐)_(0.25g/1캡슐)",
+    "MEDICINE_INFO": "세파클러 250mg",
+    "cost": 20
+  },
+  {
+    "id": 85,
+    "MEDICINE_NAME": "글리마인연질캡슐400mg",
+    "MEDICINE_INFO": "콜린알포세레이트 400mg",
+    "cost": 20
+  },
+  {
+    "id": 86,
+    "MEDICINE_NAME": "켑베이서방정0.1mg",
+    "MEDICINE_INFO": "클로니딘염산염 0.1mg",
+    "cost": 20
+  },
+  {
+    "id": 87,
+    "MEDICINE_NAME": "클자핀정100mg",
+    "MEDICINE_INFO": "클로자핀 100mg",
+    "cost": 20
+  },
+  {
+    "id": 88,
+    "MEDICINE_NAME": "클자핀정200mg",
+    "MEDICINE_INFO": "클로자핀 200mg",
+    "cost": 20
+  },
+  {
+    "id": 89,
+    "MEDICINE_NAME": "클자핀정50mg",
+    "MEDICINE_INFO": "클로자핀 50mg",
+    "cost": 20
+  },
+  {
+    "id": 90,
+    "MEDICINE_NAME": "클자핀정25mg",
+    "MEDICINE_INFO": "클로자핀 25mg",
+    "cost": 20
+  },
+  {
+    "id": 91,
+    "MEDICINE_NAME": "그로민캡슐25mg",
+    "MEDICINE_INFO": "클로미프라민염산염 25mg",
+    "cost": 20
+  },
+  {
+    "id": 92,
+    "MEDICINE_NAME": "환인클로나제팜정0.5mg",
+    "MEDICINE_INFO": "클로나제팜 0.5mg",
+    "cost": 20
+  },
+  {
+    "id": 93,
+    "MEDICINE_NAME": " 제로코푸시럽",
+    "MEDICINE_INFO": "염화암모늄 10mg/mL, 클로르페니라민말레산염 150μg/mL, 디히드로코데인타르타르산염 500μg/mL, 염산메칠에페드린 1.31mg/mL",
+    "cost": 20
+  },
+  {
+    "id": 94,
+    "MEDICINE_NAME": "명인클로르프로마진염산염정100mg",
+    "MEDICINE_INFO": "염산클로르프로마진 100mg",
+    "cost": 20
+  },
+  {
+    "id": 95,
+    "MEDICINE_NAME": "명인클로르프로마진염산염정200mg",
+    "MEDICINE_INFO": "염산클로르프로마진 200mg",
+    "cost": 20
+  },
+  {
+    "id": 96,
+    "MEDICINE_NAME": "명인클로르프로마진염산염정50mg",
+    "MEDICINE_INFO": "클로르프로마진 50mg",
+    "cost": 20
+  },
+  {
+    "id": 97,
+    "MEDICINE_NAME": "액티나민플러스정",
+    "MEDICINE_INFO": "비오틴 22.5ug 외 12종",
+    "cost": 20
+  },
+  {
+    "id": 98,
+    "MEDICINE_NAME": "덴티스타캡슐20mg",
+    "MEDICINE_INFO": "독시사이클린하이클레이트22.33mg(독시사이클린으로서20mg)",
+    "cost": 20
+  },
+  {
+    "id": 99,
+    "MEDICINE_NAME": "프리스틱서방정100mg",
+    "MEDICINE_INFO": "데스벤라팍신숙신산염일수화물 151.77mg(데스벤라팍신으로서 100mg)",
+    "cost": 20
+  },
+  {
+    "id": 100,
+    "MEDICINE_NAME": "프리스틱서방정 50mg",
+    "MEDICINE_INFO": "데스벤라팍신숙신산염일수화물 75.87mg(데스벤라팍신으로서 50mg)",
+    "cost": 20
+  },
+  {
+    "id": 101,
+    "MEDICINE_NAME": "실버셉트정10mg",
+    "MEDICINE_INFO": "도네페질염산염일수화물10.43mg(도네페질염산염으로서 10mg)",
+    "cost": 20
+  },
+  {
+    "id": 102,
+    "MEDICINE_NAME": "명인페니토인정100mg",
+    "MEDICINE_INFO": "페니토인 100mg",
+    "cost": 20
+  },
+  {
+    "id": 103,
+    "MEDICINE_NAME": "드록틴캡슐30mg",
+    "MEDICINE_INFO": "둘록세틴염산염 장용과립 176.5mg(둘록세틴으로서 30mg)",
+    "cost": 20
+  },
+  {
+    "id": 104,
+    "MEDICINE_NAME": "드록틴캡슐60mg",
+    "MEDICINE_INFO": "둘록세틴염산염 장용과립 353mg(둘록세틴으로서 60mg)",
+    "cost": 20
+  },
+  {
+    "id": 105,
+    "MEDICINE_NAME": "데파코트서방정250mg",
+    "MEDICINE_INFO": "디발프로엑스나트륨 269.06mg(디발프로엑스로서 250mg)",
+    "cost": 20
+  },
+  {
+    "id": 106,
+    "MEDICINE_NAME": "데파코트서방정500mg",
+    "MEDICINE_INFO": "디발프로엑스나트륨538.12mg(디발프로엑스로서 500mg)",
+    "cost": 20
+  },
+  {
+    "id": 107,
+    "MEDICINE_NAME": "명인디아제팜정2mg",
+    "MEDICINE_INFO": "디아제팜 2mg",
+    "cost": 20
+  },
+  {
+    "id": 108,
+    "MEDICINE_NAME": "명인디아제팜정5mg",
+    "MEDICINE_INFO": "디아제팜 5mg",
+    "cost": 20
+  },
+  {
+    "id": 109,
+    "MEDICINE_NAME": "뉴프람정10mg   ",
+    "MEDICINE_INFO": "에스시탈로프람옥살산염 12.77mg(에스시탈로프람으로서 10mg)",
+    "cost": 20
+  },
+  {
+    "id": 110,
+    "MEDICINE_NAME": "뉴프람정20mg",
+    "MEDICINE_INFO": "에스시탈로프람옥살산염 25.54mg(에스시탈로프람으로서 20mg)",
+    "cost": 20
+  },
+  {
+    "id": 111,
+    "MEDICINE_NAME": "뉴프람정 5mg",
+    "MEDICINE_INFO": "에스시탈로프람옥살산염 6.39mg(에스시탈로프람으로서 5mg)",
+    "cost": 20
+  },
+  {
+    "id": 112,
+    "MEDICINE_NAME": "팜시르정 250mg",
+    "MEDICINE_INFO": "팜시클로비르 250mg",
+    "cost": 20
+  },
+  {
+    "id": 113,
+    "MEDICINE_NAME": "훼로바-유서방정80mg",
+    "MEDICINE_INFO": "건조황산제1철 256mg(Fe++로서 80mg)",
+    "cost": 20
+  },
+  {
+    "id": 114,
+    "MEDICINE_NAME": "노피드캡슐",
+    "MEDICINE_INFO": "페노피브레이트과립(미분화) 200mg",
+    "cost": 20
+  },
+  {
+    "id": 115,
+    "MEDICINE_NAME": "토비애즈서방정4mg",
+    "MEDICINE_INFO": "페소테로딘푸마르산염 4mg",
+    "cost": 20
+  },
+  {
+    "id": 116,
+    "MEDICINE_NAME": "다나칸캡슐 50mg",
+    "MEDICINE_INFO": "플루코나졸 50mg",
+    "cost": 20
+  },
+  {
+    "id": 117,
+    "MEDICINE_NAME": "루나팜정1mg",
+    "MEDICINE_INFO": "플루니트라제팜 1mg",
+    "cost": 20
+  },
+  {
+    "id": 118,
+    "MEDICINE_NAME": "달마돔정15mg",
+    "MEDICINE_INFO": "플루라제팜염산염15mg",
+    "cost": 20
+  },
+  {
+    "id": 119,
+    "MEDICINE_NAME": "듀미록스정100mg",
+    "MEDICINE_INFO": "플루복사민100mg",
+    "cost": 20
+  },
+  {
+    "id": 120,
+    "MEDICINE_NAME": "폭세틴캡슐 20mg",
+    "MEDICINE_INFO": "플루옥세틴염산염 22.4mg(플루옥세틴으로서 20mg)",
+    "cost": 20
+  },
+  {
+    "id": 121,
+    "MEDICINE_NAME": "제일스파게린정200mg",
+    "MEDICINE_INFO": "플라복세이트염산염200mg",
+    "cost": 20
+  },
+  {
+    "id": 122,
+    "MEDICINE_NAME": "명인갈란타민서방캡슐8mg",
+    "MEDICINE_INFO": "갈란타민브롬화수소산염10.25mg(갈란타민으로서 8mg)",
+    "cost": 20
+  },
+  {
+    "id": 123,
+    "MEDICINE_NAME": "삼천당글리클라짓정 80mg",
+    "MEDICINE_INFO": "글리클라지드80mg",
+    "cost": 20
+  },
+  {
+    "id": 124,
+    "MEDICINE_NAME": "다이크로짇정25mg",
+    "MEDICINE_INFO": "하이드로클로르티아지드 25mg",
+    "cost": 20
+  },
+  {
+    "id": 125,
+    "MEDICINE_NAME": "페리돌 정 10mg/T",
+    "MEDICINE_INFO": "할로페리돌 10mg",
+    "cost": 20
+  },
+  {
+    "id": 126,
+    "MEDICINE_NAME": "페리돌정20mg(할로페리돌)",
+    "MEDICINE_INFO": "할로페리돌 20mg",
+    "cost": 20
+  },
+  {
+    "id": 127,
+    "MEDICINE_NAME": "명인할로페리돌정3mg",
+    "MEDICINE_INFO": "할로페리돌 3mg",
+    "cost": 20
+  },
+  {
+    "id": 128,
+    "MEDICINE_NAME": "페리돌정5mg(할로페리돌)_(5mg/1정)",
+    "MEDICINE_INFO": "할로페리돌 5mg",
+    "cost": 20
+  },
+  {
+    "id": 129,
+    "MEDICINE_NAME": "명인이미프라민염산염정25mg",
+    "MEDICINE_INFO": "이미프라민염산염 25mg",
+    "cost": 20
+  },
+  {
+    "id": 130,
+    "MEDICINE_NAME": "인베가서방정3mg",
+    "MEDICINE_INFO": "팔리페리돈 3mg",
+    "cost": 20
+  },
+  {
+    "id": 131,
+    "MEDICINE_NAME": "인베가서방정6mg",
+    "MEDICINE_INFO": "팔리페리돈 6mg",
+    "cost": 20
+  },
+  {
+    "id": 132,
+    "MEDICINE_NAME": "인베가서방정9mg",
+    "MEDICINE_INFO": "팔리페리돈 9mg",
+    "cost": 20
+  },
+  {
+    "id": 133,
+    "MEDICINE_NAME": "듀파락이지시럽(15ml)",
+    "MEDICINE_INFO": "락툴로오즈농축액1.34g/ml",
+    "cost": 20
+  },
+  {
+    "id": 134,
+    "MEDICINE_NAME": " 포탈락산 20g/P ",
+    "MEDICINE_INFO": "락티톨수화물 1g",
+    "cost": 20
+  },
+  {
+    "id": 135,
+    "MEDICINE_NAME": "라모스탈정100mg",
+    "MEDICINE_INFO": "라모트리진 100mg",
+    "cost": 20
+  },
+  {
+    "id": 136,
+    "MEDICINE_NAME": "라모티진정25mg",
+    "MEDICINE_INFO": "라모트리진 25mg",
+    "cost": 20
+  },
+  {
+    "id": 137,
+    "MEDICINE_NAME": "명인탄산리튬정_(0.3g/1정)",
+    "MEDICINE_INFO": "탄산리튬 300mg",
+    "cost": 20
+  },
+  {
+    "id": 138,
+    "MEDICINE_NAME": "지엘로페라미드염산염캡슐",
+    "MEDICINE_INFO": "로페라미드염산염 2mg",
+    "cost": 20
+  },
+  {
+    "id": 139,
+    "MEDICINE_NAME": "티세르신정100mg",
+    "MEDICINE_INFO": "레보메프로마진말레산염135.3mg(레보메프로마진으로서 100mg)",
+    "cost": 20
+  },
+  {
+    "id": 140,
+    "MEDICINE_NAME": "티세르신정 50mg",
+    "MEDICINE_INFO": "레보메프로마진말레산염66.7mg(레보메프로마진으로서 50mg)",
+    "cost": 20
+  },
+  {
+    "id": 141,
+    "MEDICINE_NAME": "로라반정 0.5mg",
+    "MEDICINE_INFO": "로라제팜 0.5mg",
+    "cost": 20
+  },
+  {
+    "id": 142,
+    "MEDICINE_NAME": "로라반정1mg",
+    "MEDICINE_INFO": "로라제팜 1mg",
+    "cost": 20
+  },
+  {
+    "id": 143,
+    "MEDICINE_NAME": "펠로정10mg",
+    "MEDICINE_INFO": "메만틴염산염 10mg",
+    "cost": 20
+  },
+  {
+    "id": 144,
+    "MEDICINE_NAME": "부광메티마졸정5mg",
+    "MEDICINE_INFO": "메티마졸 5mg",
+    "cost": 20
+  },
+  {
+    "id": 145,
+    "MEDICINE_NAME": "글루코파지정 250mg",
+    "MEDICINE_INFO": "메트포르민염산염250mg",
+    "cost": 20
+  },
+  {
+    "id": 146,
+    "MEDICINE_NAME": "메트파민정500mg(메트포르민염산염)",
+    "MEDICINE_INFO": "메트포르민염산염 500mg",
+    "cost": 20
+  },
+  {
+    "id": 147,
+    "MEDICINE_NAME": "베타록정100mg",
+    "MEDICINE_INFO": "메토프롤롤타르타르산염 100mg",
+    "cost": 20
+  },
+  {
+    "id": 148,
+    "MEDICINE_NAME": "마로겔정 500mg",
+    "MEDICINE_INFO": "마그네슘 하이드록시드 500mg",
+    "cost": 20
+  },
+  {
+    "id": 149,
+    "MEDICINE_NAME": "익셀캡슐50mg",
+    "MEDICINE_INFO": "밀나시프란염산염 50mg",
+    "cost": 20
+  },
+  {
+    "id": 150,
+    "MEDICINE_NAME": "가스몬정_(5mg/1정)",
+    "MEDICINE_INFO": "모사프리드시트르산염수화물5.29mg(모사프리드로서 5mg)",
+    "cost": 20
+  },
+  {
+    "id": 151,
+    "MEDICINE_NAME": "가스티인씨알정 15mg",
+    "MEDICINE_INFO": "모사프리드시트르산염무수물15.88mg(모사프리드로서 15mg)",
+    "cost": 20
+  },
+  {
+    "id": 152,
+    "MEDICINE_NAME": "페로스핀정 10mg",
+    "MEDICINE_INFO": "메틸페니데이트염산염 10mg",
+    "cost": 20
+  },
+  {
+    "id": 153,
+    "MEDICINE_NAME": "콘서타OROS서방정18mg",
+    "MEDICINE_INFO": "메틸페니데이트염산염 18mg",
+    "cost": 20
+  },
+  {
+    "id": 154,
+    "MEDICINE_NAME": "콘서타OROS서방정 27mg",
+    "MEDICINE_INFO": "메틸페니데이트염산염 27mg",
+    "cost": 20
+  },
+  {
+    "id": 155,
+    "MEDICINE_NAME": "콘서타OROS서방정 36mg",
+    "MEDICINE_INFO": "메틸페니데이트염산염 36mg",
+    "cost": 20
+  },
+  {
+    "id": 156,
+    "MEDICINE_NAME": "콘서타OROS서방정 54mg",
+    "MEDICINE_INFO": "메칠페니데이트염산염 54mg",
+    "cost": 20
+  },
+  {
+    "id": 157,
+    "MEDICINE_NAME": "메디키넷리타드캡슐10mg",
+    "MEDICINE_INFO": "메틸페니데이트염산염 10mg",
+    "cost": 20
+  },
+  {
+    "id": 158,
+    "MEDICINE_NAME": "메디키넷 리타드 캡슐 20mg",
+    "MEDICINE_INFO": "메틸페니데이트염산염 20mg",
+    "cost": 20
+  },
+  {
+    "id": 159,
+    "MEDICINE_NAME": "메디키넷 리타드캡슐30mg",
+    "MEDICINE_INFO": "메틸페니데이트염산염 30mg",
+    "cost": 20
+  },
+  {
+    "id": 160,
+    "MEDICINE_NAME": "밀타정15mg",
+    "MEDICINE_INFO": "미르타자핀 15mg",
+    "cost": 20
+  },
+  {
+    "id": 161,
+    "MEDICINE_NAME": "밀타정30mg(미르타자핀)_(30mg/1정)",
+    "MEDICINE_INFO": "미르타자핀 30mg",
+    "cost": 20
+  },
+  {
+    "id": 162,
+    "MEDICINE_NAME": "트락손정50mg",
+    "MEDICINE_INFO": "날트렉손염산염 50mg",
+    "cost": 20
+  },
+  {
+    "id": 163,
+    "MEDICINE_NAME": "파스틱정90mg",
+    "MEDICINE_INFO": "나테글리니드 90mg",
+    "cost": 20
+  },
+  {
+    "id": 164,
+    "MEDICINE_NAME": "명문니트로글리세린설하정0.6mg",
+    "MEDICINE_INFO": "묽은니트로글리세린(10%) 6mg(니트로글리세린으로서 0.6mg)",
+    "cost": 20
+  },
+  {
+    "id": 165,
+    "MEDICINE_NAME": "영풍오플록사신정100mg",
+    "MEDICINE_INFO": "오플록사신 100mg",
+    "cost": 20
+  },
+  {
+    "id": 166,
+    "MEDICINE_NAME": "자이프렉사자이디스확산정10mg",
+    "MEDICINE_INFO": "미세올란자핀 10mg",
+    "cost": 20
+  },
+  {
+    "id": 167,
+    "MEDICINE_NAME": "뉴로자핀정 10mg(올란자핀)",
+    "MEDICINE_INFO": "올란자핀 10mg",
+    "cost": 20
+  },
+  {
+    "id": 168,
+    "MEDICINE_NAME": "뉴로자핀정 5mg(올란자핀)_(5mg/1정)",
+    "MEDICINE_INFO": "올란자핀 5mg",
+    "cost": 20
+  },
+  {
+    "id": 169,
+    "MEDICINE_NAME": "프리살탄정20mg",
+    "MEDICINE_INFO": "올메사르탄메독소밀 20mg",
+    "cost": 20
+  },
+  {
+    "id": 170,
+    "MEDICINE_NAME": "올로스틴정5mg",
+    "MEDICINE_INFO": "올로파타딘염산염 5mg",
+    "cost": 20
+  },
+  {
+    "id": 171,
+    "MEDICINE_NAME": "판토라인정 20mg",
+    "MEDICINE_INFO": "판토프라졸나트륨세스키히드레이트 22.6mg(판토프라졸로서 20mg)",
+    "cost": 20
+  },
+  {
+    "id": 172,
+    "MEDICINE_NAME": "파마프로시클리딘정5mg",
+    "MEDICINE_INFO": "프로시클리딘염산염 5mg",
+    "cost": 20
+  },
+  {
+    "id": 173,
+    "MEDICINE_NAME": "페니라민정2mg",
+    "MEDICINE_INFO": "클로르페니라민말레산염 2mg",
+    "cost": 20
+  },
+  {
+    "id": 174,
+    "MEDICINE_NAME": "피오리타정 15mg",
+    "MEDICINE_INFO": "피오글리타존염산염 16.53mg(피오글리타존으로서 15mg)",
+    "cost": 20
+  },
+  {
+    "id": 175,
+    "MEDICINE_NAME": "메가스타틴정2mg",
+    "MEDICINE_INFO": "피타바스타틴칼슘 2mg",
+    "cost": 20
+  },
+  {
+    "id": 176,
+    "MEDICINE_NAME": "케이콘틴서방정600mg",
+    "MEDICINE_INFO": "염화칼륨 600mg",
+    "cost": 20
+  },
+  {
+    "id": 177,
+    "MEDICINE_NAME": "명인페르페나진정4mg",
+    "MEDICINE_INFO": "페르페나진 4mg",
+    "cost": 20
+  },
+  {
+    "id": 178,
+    "MEDICINE_NAME": "소론도정5mg",
+    "MEDICINE_INFO": "프레드니솔론 5mg",
+    "cost": 20
+  },
+  {
+    "id": 179,
+    "MEDICINE_NAME": "인데놀정10mg",
+    "MEDICINE_INFO": "프로프라놀롤염산염 10mg",
+    "cost": 20
+  },
+  {
+    "id": 180,
+    "MEDICINE_NAME": "인데놀정40mg",
+    "MEDICINE_INFO": "프로프라놀롤염산염 40mg",
+    "cost": 20
+  },
+  {
+    "id": 181,
+    "MEDICINE_NAME": "파록스씨알정12.5mg",
+    "MEDICINE_INFO": "파록세틴염산염수화물 14.25mg(파록세틴으로서 12.5mg)",
+    "cost": 20
+  },
+  {
+    "id": 182,
+    "MEDICINE_NAME": "파마염산슈도에페드린정60mg",
+    "MEDICINE_INFO": "슈도에페드린염산염 60mg",
+    "cost": 20
+  },
+  {
+    "id": 183,
+    "MEDICINE_NAME": "쎄로켈정100mg",
+    "MEDICINE_INFO": "쿠에티아핀푸마르산염 115.13mg(쿠에티아핀 100mg)",
+    "cost": 20
+  },
+  {
+    "id": 184,
+    "MEDICINE_NAME": "쎄로켈정200mg",
+    "MEDICINE_INFO": "쿠에티아핀푸마르산염 230.26mg(쿠에티아핀 200mg)",
+    "cost": 20
+  },
+  {
+    "id": 185,
+    "MEDICINE_NAME": "쎄로켈정25mg",
+    "MEDICINE_INFO": "쿠에티아핀푸마르산염 28.78mg(쿠에티아핀 25mg)",
+    "cost": 20
+  },
+  {
+    "id": 186,
+    "MEDICINE_NAME": "쎄로켈정300mg",
+    "MEDICINE_INFO": "쿠에티아핀푸마르산염 345.39mg(쿠에티아핀 300mg)",
+    "cost": 20
+  },
+  {
+    "id": 187,
+    "MEDICINE_NAME": "큐로겔서방정 200mg",
+    "MEDICINE_INFO": "쿠에티아핀푸마르산염 230.26mg(쿠에티아핀 200mg)",
+    "cost": 20
+  },
+  {
+    "id": 188,
+    "MEDICINE_NAME": "쿠에타핀서방정300mg",
+    "MEDICINE_INFO": "쿠에티아핀푸마르산염 345.38mg(쿠에티아핀 300mg)",
+    "cost": 20
+  },
+  {
+    "id": 189,
+    "MEDICINE_NAME": "쿠에타핀서방정400mg",
+    "MEDICINE_INFO": "쿠에티아핀푸마르산염 460.50mg(쿠에티아핀 340mg)",
+    "cost": 20
+  },
+  {
+    "id": 190,
+    "MEDICINE_NAME": "쿠에타핀서방정 50mg",
+    "MEDICINE_INFO": "쿠에티아핀푸마르산염 57.56mg(쿠에티아핀 50mg)",
+    "cost": 20
+  },
+  {
+    "id": 191,
+    "MEDICINE_NAME": "뉴바민정100mg",
+    "MEDICINE_INFO": "레바미피드100mg",
+    "cost": 20
+  },
+  {
+    "id": 192,
+    "MEDICINE_NAME": "란틴정150mg",
+    "MEDICINE_INFO": "라니티딘염산염168mg(라니티딘으로서 150mg)",
+    "cost": 20
+  },
+  {
+    "id": 193,
+    "MEDICINE_NAME": " 파키놀정0.25mg",
+    "MEDICINE_INFO": "로피니롤염산염 0.285mg(로피니롤로서 0.25mg)",
+    "cost": 20
+  },
+  {
+    "id": 194,
+    "MEDICINE_NAME": "파키놀정1mg",
+    "MEDICINE_INFO": "로피니롤염산염 1.14mg(로피니롤로서 1mg)",
+    "cost": 20
+  },
+  {
+    "id": 195,
+    "MEDICINE_NAME": "리페리돈정1mg",
+    "MEDICINE_INFO": "리스페리돈 1mg",
+    "cost": 20
+  },
+  {
+    "id": 196,
+    "MEDICINE_NAME": "리페리돈정 2mg",
+    "MEDICINE_INFO": "리스페리돈 2mg",
+    "cost": 20
+  },
+  {
+    "id": 197,
+    "MEDICINE_NAME": "리페리돈정3mg/1정",
+    "MEDICINE_INFO": "리스페리돈 3mg",
+    "cost": 20
+  },
+  {
+    "id": 198,
+    "MEDICINE_NAME": "리스펜오디정1mg",
+    "MEDICINE_INFO": "리스페리돈 1mg",
+    "cost": 20
+  },
+  {
+    "id": 199,
+    "MEDICINE_NAME": "리스펜오디정2mg",
+    "MEDICINE_INFO": "리스페리돈 2mg",
+    "cost": 20
+  },
+  {
+    "id": 200,
+    "MEDICINE_NAME": "록세미신정150mg",
+    "MEDICINE_INFO": "록시트로마이신 150mg",
+    "cost": 20
+  },
+  {
+    "id": 201,
+    "MEDICINE_NAME": "다이톱 현탁액20ml/P",
+    "MEDICINE_INFO": "디옥타헤드랄스멕타이드 3g/20ml",
+    "cost": 20
+  },
+  {
+    "id": 202,
+    "MEDICINE_NAME": "엑시렌정",
+    "MEDICINE_INFO": "애엽95%에탄올연조엑스(20→1) 60mg",
+    "cost": 20
+  },
+  {
+    "id": 203,
+    "MEDICINE_NAME": " 졸로푸트정50mg",
+    "MEDICINE_INFO": "설트랄린염산염 55.95mg(설트랄린으로서 50mg)",
+    "cost": 20
+  },
+  {
+    "id": 204,
+    "MEDICINE_NAME": "졸로푸트정100mg",
+    "MEDICINE_INFO": "설트랄린염산염 111.9mg(설트랄린으로서 100mg)",
+    "cost": 20
+  },
+  {
+    "id": 205,
+    "MEDICINE_NAME": "세로나제정",
+    "MEDICINE_INFO": "스트렙토키나제-스트렙토도르나제 10mg",
+    "cost": 20
+  },
+  {
+    "id": 206,
+    "MEDICINE_NAME": "설피딘정200mg",
+    "MEDICINE_INFO": "설피리드 200mg",
+    "cost": 20
+  },
+  {
+    "id": 207,
+    "MEDICINE_NAME": "씬지록신정100ug",
+    "MEDICINE_INFO": "레보티록신나트륨수화물 100ug",
+    "cost": 20
+  },
+  {
+    "id": 208,
+    "MEDICINE_NAME": "탐소날캡슐0.2mg",
+    "MEDICINE_INFO": "탐스로신염산염 0.2mg",
+    "cost": 20
+  },
+  {
+    "id": 209,
+    "MEDICINE_NAME": "티모딕정100mg",
+    "MEDICINE_INFO": "티로프라미드염산염 100mg",
+    "cost": 20
+  },
+  {
+    "id": 210,
+    "MEDICINE_NAME": "타미플루캡슐 75mg",
+    "MEDICINE_INFO": "오셀타미비르인산염 98.5mg(오셀타미비르로서 75mg)",
+    "cost": 20
+  },
+  {
+    "id": 211,
+    "MEDICINE_NAME": "토피론정50mg",
+    "MEDICINE_INFO": "토피라메이트 50mg",
+    "cost": 20
+  },
+  {
+    "id": 212,
+    "MEDICINE_NAME": "맥스노펜정",
+    "MEDICINE_INFO": "아세트아미노펜325mg/트라마돌염산염37.5mg",
+    "cost": 20
+  },
+  {
+    "id": 213,
+    "MEDICINE_NAME": "트리헥신정2mg",
+    "MEDICINE_INFO": "트리헥시페니딜염산염 2mg",
+    "cost": 20
+  },
+  {
+    "id": 214,
+    "MEDICINE_NAME": "티알부틴정100mg",
+    "MEDICINE_INFO": "트리메부틴말레산염100mg",
+    "cost": 20
+  },
+  {
+    "id": 215,
+    "MEDICINE_NAME": "명인트라조돈캡슐25mg",
+    "MEDICINE_INFO": "트라조돈염산염 25mg",
+    "cost": 20
+  },
+  {
+    "id": 216,
+    "MEDICINE_NAME": "명인트라조돈염산염정50mg",
+    "MEDICINE_INFO": "트라조돈염산염 50mg",
+    "cost": 20
+  },
+  {
+    "id": 217,
+    "MEDICINE_NAME": "챔픽스정1mg",
+    "MEDICINE_INFO": "바레니쿨린타르타르산염 1.71mg",
+    "cost": 20
+  },
+  {
+    "id": 218,
+    "MEDICINE_NAME": "신일티아민염산염정10mg",
+    "MEDICINE_INFO": "티아민염산염 10mg",
+    "cost": 20
+  },
+  {
+    "id": 219,
+    "MEDICINE_NAME": "신일피리독신정50mg",
+    "MEDICINE_INFO": "피리독신염산염 50mg",
+    "cost": 20
+  },
+  {
+    "id": 220,
+    "MEDICINE_NAME": "알코타민정",
+    "MEDICINE_INFO": "폴산500ug ; 푸르설티아민100mg",
+    "cost": 20
+  },
+  {
+    "id": 221,
+    "MEDICINE_NAME": "코펙사 엑스알서방캡슐75mg(벤라팍신염산염)_(84.84mg/1캡슐)",
+    "MEDICINE_INFO": "벤라팍신염산염서방과립 250mg(벤라팍신으로서 75mg)",
+    "cost": 20
+  },
+  {
+    "id": 222,
+    "MEDICINE_NAME": "보글리아정0.2mg(보글리보스)_(0.2mg/1정)",
+    "MEDICINE_INFO": "보글리보스 0.2mg",
+    "cost": 20
+  },
+  {
+    "id": 223,
+    "MEDICINE_NAME": "브린텔릭스정10mg",
+    "MEDICINE_INFO": "보티옥세틴브롬화수소산염 12.71mg",
+    "cost": 20
+  },
+  {
+    "id": 224,
+    "MEDICINE_NAME": "브린텔릭스정5mg",
+    "MEDICINE_INFO": "보티옥세틴브롬화수소산염 6.355mg",
+    "cost": 20
+  },
+  {
+    "id": 225,
+    "MEDICINE_NAME": "오르필서방정300mg",
+    "MEDICINE_INFO": "발프로산나트륨 300mg",
+    "cost": 20
+  },
+  {
+    "id": 226,
+    "MEDICINE_NAME": "젤독스캡슐40mg",
+    "MEDICINE_INFO": "지프라시돈염산염일수화물 45.30mg(지프라시돈으로서 40mg)",
+    "cost": 20
+  },
+  {
+    "id": 227,
+    "MEDICINE_NAME": "젤독스캡슐80mg",
+    "MEDICINE_INFO": "지프라시돈염산염일수화물 90.60mg(지프라시돈으로서 80mg)",
+    "cost": 20
+  },
+  {
+    "id": 228,
+    "MEDICINE_NAME": "로도핀정100gmg",
+    "MEDICINE_INFO": "죠테핀 100mg",
+    "cost": 20
+  },
+  {
+    "id": 229,
+    "MEDICINE_NAME": "로도핀정50mg(죠테핀)_(50mg/1정) ",
+    "MEDICINE_INFO": "죠테핀 500mg",
+    "cost": 20
+  },
+  {
+    "id": 230,
+    "MEDICINE_NAME": "졸피신정10mg",
+    "MEDICINE_INFO": "졸피뎀타르타르산염 10mg",
+    "cost": 20
+  },
+  {
+    "id": 231,
+    "MEDICINE_NAME": "스틸녹스CR정12.5mg",
+    "MEDICINE_INFO": "졸피뎀타르타르산염 12.5mg",
+    "cost": 20
+  },
+  {
+    "id": 232,
+    "MEDICINE_NAME": "스틸녹스CR정6.25mg",
+    "MEDICINE_INFO": "졸피뎀타르타르산염 6.25mg",
+    "cost": 20
+  }
+ ]

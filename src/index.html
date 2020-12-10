@@ -32,36 +32,69 @@
         }
       }
     </style>
+
+<style type="text/css">
+body{
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat";
+}
+.searchbox{
+  width: 90%;
+  margin: 10px auto;
+}
+.header{
+  background: #00000059;
+  overflow: hidden;
+  padding: 20px;
+  text-align: center;
+}
+.header h1{
+  text-transform: uppercase;
+  color: white;
+  margin: 0;
+  margin-bottom: 8px;
+}
+#value{
+  border: none;
+  background: #ffe5a9;
+  padding: 6px;
+  font-size: 18px;
+  width: 80%;
+  border-radius: 6px;
+  color: white;
+}
+#value:focus{
+  outline: none;
+}
+.container1{
+  background: #defcfd;
+  padding: 1%;
+}
+.item{
+  margin: 3% 0px;
+  display: flex;
+  align-items: center;
+}
+.icon{
+  width: 25px;
+  height: 25px;
+  background: #f0e3c9;
+  color: white;
+  font-size: 15px;
+  text-align: center;
+  line-height: 25px;
+  border-radius: 50%;
+  margin-right: 8px;
+}
+.name{
+  font-size: 17px;
+  font-weight: 470;
+  color: #333;
+}
+</style>
     <!-- Custom styles for this template -->
     <link href="album.css" rel="stylesheet">
-
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
-
-
-    <!-- <script>
-      function buying(i){
-        //구매관련한 부분에 있어 답변이 없으셔서 제가 만들어야한다면 만들 예정이며 
-        //결제 결제 진행 후 주소를 받을 예정이므로 주소와 관련된 부분은 아직 존재하지 않습니다.
-      }
-      function igd(i){
-        var ary = ["아세트아미노펜 500mg", 
-                    "디메티콘 25mg, 셀룰라제 50mg, 판크레아틴 175mg, 우담즙건조엑스 25mg",
-                    "아세트아미노펜30mg, 카페인무수물50mg, 이소프로안티피린150mg",
-                    "디옥타헤드랄스멕타이트 3g/20mL",
-                    "세티리진염산염 10mg",
-                    "살부타몰황산염 100g",
-                    "클로르헥시딘아세트산염 0.05mg",
-                    "염산옥테니딘 1mg, 페녹시에탄올 20mg",
-                    "약이 아닌 물품은 성분이 제공되지 않습니다."];
-        alert(ary[i]);
-      }
-    </script> -->
-
 
   </head>
   <body>
@@ -92,11 +125,10 @@
         <div class="card mb-4 shadow-sm">
           <img class="bd-placeholder-img med_img" src="media/med_13.png" alt="타이레놀 500mg (해열진통제)" width="100%" height="500">
           <div class="card-body">
-            <!-- <p class="card-text"><b>타이레놀 500mg (해열진통제)</b>  <hr>가격 : <b>20 ETH</b><br> 효능 : 감기로 인한 발열, 두통, 근육통 등 </p> -->
-            <span class="med_title"><b>test_title</b></span> <hr>
-            가격 : <span class="med_price">test_price</span> ETH <br>
-            <span class="med_info">test_info</span><br>
-            수량&nbsp;&nbsp; <input class="med_cnt" size="1" value="1">
+            <strong class="med_title">test_title</strong> <hr>
+            <b>가격 :</b> <span class="med_price">test_price</span> ETH <br>
+            <strong class="med_info">test_info</strong><br>
+            <b>수량</b>&nbsp;&nbsp; <input class="med_cnt" size="1" value="1">
             <div class="d-flex justify-content-between align-items-center">
               <div class="btn-group">
                 <button type="button" class="btn btn-sm btn-outline-secondary med_buy_btn">구매</button>
@@ -106,10 +138,7 @@
           </div>
         </div>
       </div>
-    </div>
-    
-
-  
+    </div>  
   </main>
 
   <div id="delRow" class="row">
@@ -131,48 +160,50 @@
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
         <script>window.jQuery || document.write('<script src="../assets/js/vendor/jquery.slim.min.js"><\/script>')</script><script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
   
-    <!--<div class="container">
-      <div class="row">
-        <div class="col-xs-12 col-sm-8 col-sm-push-2">
-          <h1 class="text-center">Pete's Pet Shop</h1>
-          <hr/>
-          <br/>
-        </div>
-      </div>
 
-      <div id="petsRow" class="row"> //  PETS LOAD HERE
-      </div>
-    </div>
+        <script type="text/javascript">
+          function filter(){
+    
+            var value, name, item, i;
+    
+            value = document.getElementById("value").value.toUpperCase();
+            item = document.getElementsByClassName("item_med");
+    
+            for(i=0;i<item.length;i++){
+              name = item[i].getElementsByClassName("med_list_name");
+              if(name[0].innerHTML.toUpperCase().indexOf(value) > -1){
+                item[i].style.display = "flex";
+              }else{
+                item[i].style.display = "none";
+              }
+            }
+          }
+    </script>
 
-    <div id="petTemplate" style="display: none;">
-      <div class="col-sm-6 col-md-4 col-lg-3">
-        <div class="panel panel-default panel-pet">
-          <div class="panel-heading">
-            <h3 class="panel-title">Scrappy</h3>
+        <div class="searchbox">
+          <div class="header">
+            <h1>의약품 검색</h1>
+            <input onkeyup="filter()" type="text" id="value" placeholder="의약품 이름 입력">
           </div>
-          <div class="panel-body">
-            <img alt="140x140" data-src="holder.js/140x140" class="img-rounded img-center" style="width: 100%;" src="https://animalso.com/wp-content/uploads/2017/01/Golden-Retriever_6.jpg" data-holder-rendered="true">
-            <br/><br/>
-            <strong>Breed</strong>: <span class="pet-breed">Golden Retriever</span><br/>
-            <strong>Age</strong>: <span class="pet-age">3</span><br/>
-            <strong>Location</strong>: <span class="pet-location">Warren, MI</span><br/><br/>
-            <button class="btn btn-default btn-adopt" type="button" data-id="0">Adopt</button>
+    
+          <div class="medListRow"></div>
+
+          <div class="medList">
+
+          <div class="container1">    
+            <div class="item_med">
+            <strong class="med_list_name">MedName</strong><br>
+            <b>성분:</b> <strong class="med_list_info">MedInfo</strong><br>
+            <b>가격 :</b> <span class="med_list_price">test_price</span> ETH <br>
+            <b>수량</b>&nbsp;&nbsp; <input class="med_list_cnt" size="1" value="1">
+              <button type="button" class="btn btn-sm btn-outline-secondary med_list_buy_btn">구매</button><br>
+            </div>
+            --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+          </div>
+    
+           
           </div>
         </div>
-      </div>
-    </div>
-
-
-    <br><br>
-    <input type="text" pattern="[0-9.]+" class="deposit_amount" id="deposit_text" placeholder="Deposit Amount in Ether"/>
-    <button class="button btn-sm" id="deposit_btn">DEPOSIT to Contract</button><br>
-    <input type="text" pattern="[0-9.]+" class="withdraw_amount" id="withdraw_text" placeholder="Withdraw Amount in Ether"/>
-    <button class="button btn-sm" id="withdraw_btn">Withdraw to Contract</button><br>
-    <input type="text" pattern="[0-9.]+" class="balance" id="balance_text" placeholder="0"/>
-    <button class="button btn-sm" id="balance_btn">BALANCE</button><br>
-
-    <br><br>
-    <h3>배송 정보</h3><br>-->
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>

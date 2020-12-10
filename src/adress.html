@@ -2,19 +2,50 @@
 <html>
     <head>
         <title>주소 입력</title>
-        <script>
-            function fin(){
+        <!-- <script src="node_modules/require/example/server.js"></script>
+        <script src="test123_test1/node_modules/require/lib/resolve.js"></script> -->
+        <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+        <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+        <script src="js/FireStore.js"></script>
+        <script type="text/JavaScript" src="http://code.jquery.com/jquery-1.7.min.js"></script>
+        <script type="text/JavaScript" src="http://dmaps.daum.net/map_js_init/postcode.v2.js"></script>
 
-                alert("감사합니다. 승인버튼 누르면 결제가 완료됩니다.");
-                window.close();
-            }
+        <script type="text/javascript">
+            function openDaumZipAddress() {    
+                new daum.Postcode({    
+                    oncomplete:function(data) {    
+                        jQuery("#input_address_road").val(data.postcode1);    
+                        jQuery("#input_address_road").val(data.postcode2);    
+                        jQuery("#input_address_road").val(data.zonecode);    
+                        jQuery("#input_address_road").val(data.address);    
+                        jQuery("#input_address_road").focus();    
+                        console.log(data);    
+                    }    
+                }).open();    
+            }    
         </script>
     </head>
+
     <body>
+
+          <!-- Insert these scripts at the bottom of the HTML, but before you use any Firebase services -->
+
+  <!-- Firebase App (the core Firebase SDK) is always required and must be listed first -->
+  <script src="https://www.gstatic.com/firebasejs/7.23.0/firebase-app.js"></script>
+  <!-- If you enabled Analytics in your project, add the Firebase SDK for Analytics -->
+  <script src="https://www.gstatic.com/firebasejs/7.23.0/firebase-analytics.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/7.23.0/firebase-firestore.js"></script>
+        
+
         <h3>배송 받으실 주소를 입력해주세요.</h3><hr><br>
-        <b>받으시는 분 성함</b> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" id="input_name" size="6"><br>
-        <b>받으시는 분 전화번호</b> <input type="text" id="input_num"><br>
-        <b>주소 (상세주소 포함)</b> &nbsp;<input type="text" id="input_address" size="55"><br><br><hr><br>
-        <input type="button" id="finish_btn" onclick="fin()" value="완료">
+        <b>받으시는 분 성함</b> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" id="input_name" size="6" placeholder="이름"><br>
+        <b>받으시는 분 전화번호</b> <input type="text" id="input_num" placeholder="전화번호"><br>
+        <b>주소 (상세주소 포함)</b> &nbsp;<input type="text" id="input_address_road" size="20" placeholder="도로명 주소" readonly> &nbsp;	
+        <input type="text" id="input_address_detail" size="20" placeholder="상세 주소">
+        <input type="button" onClick="openDaumZipAddress();" value = "주소 찾기" />
+        <br/><br><br><hr><br>
+        
+        <input type="button" id="finish_btn" class="finish_button" name="finish" value="완료">
+
     </body>
 </html>
