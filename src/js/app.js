@@ -1,5 +1,6 @@
 var petTemplate = $('#petTemplate');
 var temp_json_idx = 0;
+var cnt = 0;
 
 App = {
   web3Provider: null,
@@ -74,7 +75,15 @@ App = {
         var SimpleBankArtifact = data1; 
         App.contracts.SimpleBank = TruffleContract(SimpleBankArtifact); 
         App.contracts.SimpleBank.setProvider(App.web3Provider); 
-        return App.markAdopted(); 
+
+        $.getJSON('UserAddress.json', function(data2) { 
+        
+          var UserAddressArtifact = data2; 
+          App.contracts.UserAddress = TruffleContract(UserAddressArtifact); 
+          App.contracts.UserAddress.setProvider(App.web3Provider); 
+          return App.markAdopted(); 
+    
+        });
   
       });
 
@@ -117,24 +126,24 @@ App = {
     }); 
   },
 
-  setDelivery: function(cnt){
-   $.getJSON('../delivery.json', function(data){
-      var delRow = $('#delRow');
-      var delTemplete = $("#delTemplete");
-      for(i=temp_json_idx; i< data.length; i++){
-         // delTemplete.find('.collect_product').text(data[i].collect);
-         // delTemplete.find('.start_delivery').text(data[i].start);
-         // delTemplete.find('.complet_delivery').text(data[i].complete);
+  // setDelivery: function(cnt){
+  //  $.getJSON('../delivery.json', function(data){
+  //     var delRow = $('#delRow');
+  //     var delTemplete = $("#delTemplete");
+  //     for(i=temp_json_idx; i< data.length; i++){
+  //        // delTemplete.find('.collect_product').text(data[i].collect);
+  //        // delTemplete.find('.start_delivery').text(data[i].start);
+  //        // delTemplete.find('.complet_delivery').text(data[i].complete);
          
-         delTemplete.append(data[i].collect +"<br></br>");
-         delTemplete.append(data[i].start+"<br></br>");
-         delTemplete.append(data[i].complete+"<br></br>");
-         delTemplete.append("---------------------------------------------------------" +"<br></br>");
-         temp_json_idx++;
-         return;
-      }
-    });
-  },
+  //        delTemplete.append(data[i].collect +"<br></br>");
+  //        delTemplete.append(data[i].start+"<br></br>");
+  //        delTemplete.append(data[i].complete+"<br></br>");
+  //        delTemplete.append("---------------------------------------------------------" +"<br></br>");
+  //        temp_json_idx++;
+  //        return;
+  //     }
+  //   });
+  // },
 
   medInfomation: function(event){
     event.preventDefault();
@@ -163,6 +172,7 @@ App = {
     web3.eth.getAccounts(function(error, accounts) { 
        if (error) { console.log(error); } 
        var account = accounts[0]; 
+
        alert("주소를 입력해주세요");
        newWin = window.open("/adress.html", "myWin", "left=300,top=300,width=800,height=300");
     
@@ -176,7 +186,8 @@ App = {
           var med_cnt_price = price*med_cnt;
           var amount = parseFloat(med_cnt_price)*Math.pow(10,18);
           // 결제창
-          App.setDelivery();
+          
+          App.setUserAddress();
           
           return adoptionInstance.adopt(mId, {value:`${amount}`, from:account, to:adoptionInstance.address});
      
@@ -197,7 +208,10 @@ App = {
     web3.eth.getAccounts(function(error, accounts) { 
        if (error) { console.log(error); } 
        var account = accounts[0]; 
+
+       App.getUserAddress();
        alert("주소를 입력해주세요");
+       
        newWin = window.open("/adress.html", "myWin", "left=300,top=300,width=800,height=300");
     
        App.contracts.Adoption.deployed().then(function(instance) { 
@@ -210,12 +224,57 @@ App = {
           var med_cnt_price = price*med_cnt;
           var amount = parseFloat(med_cnt_price)*Math.pow(10,18);
           // 결제창
-          App.setDelivery();
           
           return adoptionInstance.adopt(mId, {value:`${amount}`, from:account, to:adoptionInstance.address});
      
        }).then(function(result) { 
           return App.markAdopted(); 
+       }).catch(function(err) { 
+          console.log(err.message); 
+       }); 
+    }); 
+  },
+
+  setUserAddress: function() {
+
+    var adoptionInstance; 
+    web3.eth.getAccounts(function(error, accounts) { 
+       if (error) { console.log(error); } 
+       var account = accounts[0]; 
+    
+       App.contracts.UserAddress.deployed().then(function(instance) { 
+          adoptionInstance = instance; 
+          
+          var text = "Test123";
+          adoptionInstance.setUserAddress(text, {from:account});
+          return;
+     
+       }).then(function(result) { 
+          //return App.markAdopted();
+          App.getUserAddress(); 
+       }).catch(function(err) { 
+          console.log(err.message); 
+       }); 
+    }); 
+  },
+
+  getUserAddress: function() {
+
+    var adoptionInstance; 
+    web3.eth.getAccounts(function(error, accounts) { 
+       if (error) { console.log(error); } 
+       var account = accounts[0]; 
+    
+       App.contracts.UserAddress.deployed().then(async function(instance) { 
+          adoptionInstance = instance; 
+        
+          cnt++;
+          var text1 = await adoptionInstance.getDeliveryInfo();
+          alert(text1);
+          return;
+     
+       }).then(function(result) { 
+          //return App.markAdopted(); 
        }).catch(function(err) { 
           console.log(err.message); 
        }); 
