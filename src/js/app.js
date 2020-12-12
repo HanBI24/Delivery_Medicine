@@ -7,7 +7,7 @@ App = {
   contracts: {},
 
   init: async function() {
-   // Load pets.
+   // 약 정보 JSON에서 불러옴
    $.getJSON('../mdcs.json', function(data) {
      var medRow = $('#medRow');
      var medTemplate = $('#med_list');
@@ -23,6 +23,7 @@ App = {
        medRow.append(medTemplate.html());
      }
    });
+   // 공공 데이터 포털에서 추가한 약 정보 JSON에서 불러옴
    $.getJSON('../med_info_public_data.json', function(data) {
     var medListRow = $('.medListRow');
     var medList = $('.medList');
@@ -63,6 +64,7 @@ App = {
     return App.initContract();
   },
 
+  // migrate한 파일들을 동기화하여 계약에 대한 정보를 수동 입력하지 않아도 된다.
   initContract: function() {
     $.getJSON('Adoption.json', function(data) { 
 
@@ -76,6 +78,7 @@ App = {
         App.contracts.SimpleBank = TruffleContract(SimpleBankArtifact); 
         App.contracts.SimpleBank.setProvider(App.web3Provider); 
 
+        // UserAddress 파일 추가
         $.getJSON('UserAddress.json', function(data2) { 
         
           var UserAddressArtifact = data2; 
@@ -93,13 +96,12 @@ App = {
   },
 
   bindEvents: function() {
+     // 구매 버튼 클릭
     $(document).on('click', '.med_buy_btn', App.handleAdopt);
+    // 성분 버튼 클릭
     $(document).on('click', '.med_info_btn', App.medInfomation);
+    // 리스트에 있는 약 구매 버튼 클릭
     $(document).on('click', '.med_list_buy_btn', App.handleAdoptList);
-
-    // $(document).on('click', '#deposit_btn', App.handleDeposit);
-    // $(document).on('click', '#withdraw_btn', App.handleWithdraw);
-    // $(document).on('click', '#balance_btn', App.handleBalance);
   },
 
   // 결제시 어떤 동작 실행
@@ -112,39 +114,15 @@ App = {
     }).then(function(adopters) { 
        for (i = 0; i < adopters.length; i++) { 
           if (adopters[i] !== '0x0000000000000000000000000000000000000000') { 
-             //$('.panel-pet').eq(i).find('button').text('Success').attr('disabled', true); 
-             //상태 변경 필요 없으므로 제거
              cnt++;
-            //  App.setDelivery(cnt);
           }
        }  
-      //  $('.collect_product').find('text').text('Success')
-      //  $('.start_delivery').find('text').text('Success')
-      //  $('.complet_delivery').find('text').text('Success')
     }).catch(function(err) { 
        console.log(err.message); 
     }); 
   },
 
-  // setDelivery: function(cnt){
-  //  $.getJSON('../delivery.json', function(data){
-  //     var delRow = $('#delRow');
-  //     var delTemplete = $("#delTemplete");
-  //     for(i=temp_json_idx; i< data.length; i++){
-  //        // delTemplete.find('.collect_product').text(data[i].collect);
-  //        // delTemplete.find('.start_delivery').text(data[i].start);
-  //        // delTemplete.find('.complet_delivery').text(data[i].complete);
-         
-  //        delTemplete.append(data[i].collect +"<br></br>");
-  //        delTemplete.append(data[i].start+"<br></br>");
-  //        delTemplete.append(data[i].complete+"<br></br>");
-  //        delTemplete.append("---------------------------------------------------------" +"<br></br>");
-  //        temp_json_idx++;
-  //        return;
-  //     }
-  //   });
-  // },
-
+  // 약 성분
   medInfomation: function(event){
     event.preventDefault();
 
@@ -156,13 +134,11 @@ App = {
           alert(data[mId].efc);
         }
       }          
-          // delTemplete.append(data[i].collect +"<br></br>");
-
-          return;
-
+      return;
      });
    },
 
+   // 구매 버튼 눌렀을 때 
   handleAdopt: function(event) {
     event.preventDefault();
 
@@ -185,8 +161,8 @@ App = {
           var med_cnt = parseInt(med_cnt_tmp);
           var med_cnt_price = price*med_cnt;
           var amount = parseFloat(med_cnt_price)*Math.pow(10,18);
-          // 결제창
           
+          // 배송 정보 처리 
           App.setUserAddress();
           
           return adoptionInstance.adopt(mId, {value:`${amount}`, from:account, to:adoptionInstance.address});
@@ -199,6 +175,8 @@ App = {
     }); 
   },
 
+
+  // 리스트에 있는 약 구매 버튼 클릭 시
   handleAdoptList: function(event) {
     event.preventDefault();
 
@@ -217,13 +195,11 @@ App = {
        App.contracts.Adoption.deployed().then(function(instance) { 
           adoptionInstance = instance; 
           
-          // Execute adopt as a transaction by sending account 
           var price = $('.med_list_price').eq(mId).text();
           var med_cnt_tmp = $('.med_list_cnt').eq(mId).val();
           var med_cnt = parseInt(med_cnt_tmp);
           var med_cnt_price = price*med_cnt;
           var amount = parseFloat(med_cnt_price)*Math.pow(10,18);
-          // 결제창
           
           return adoptionInstance.adopt(mId, {value:`${amount}`, from:account, to:adoptionInstance.address});
      
@@ -235,8 +211,9 @@ App = {
     }); 
   },
 
-  setUserAddress: function() {
 
+  // 배송 정보 처리
+  setUserAddress: function() {
     var adoptionInstance; 
     web3.eth.getAccounts(function(error, accounts) { 
        if (error) { console.log(error); } 
@@ -250,7 +227,6 @@ App = {
           return;
      
        }).then(function(result) { 
-          //return App.markAdopted();
           App.getUserAddress(); 
        }).catch(function(err) { 
           console.log(err.message); 
@@ -258,23 +234,22 @@ App = {
     }); 
   },
 
+  // 배송 정보 처리
   getUserAddress: function() {
-
     var adoptionInstance; 
     web3.eth.getAccounts(function(error, accounts) { 
        if (error) { console.log(error); } 
-       var account = accounts[0]; 
-    
+       var account = accounts[0];     
        App.contracts.UserAddress.deployed().then(async function(instance) { 
-          adoptionInstance = instance; 
-        
+
+          adoptionInstance = instance;         
           cnt++;
+          // Solidity에서 가져오는 것이 느리기 때문에 비동기로 처리
           var text1 = await adoptionInstance.getDeliveryInfo();
           alert(text1);
           return;
      
        }).then(function(result) { 
-          //return App.markAdopted(); 
        }).catch(function(err) { 
           console.log(err.message); 
        }); 

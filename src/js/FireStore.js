@@ -1,18 +1,5 @@
-/*const firebase = require("firebase");
-// Required for side-effects
-require("firebase/firestore");*/
-
 $(function(){
-
     $(".finish_button").click(function(){
-                        // Your web app's Firebase configuration
-  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
-  /*module.exports = {
-    entry: './index.js',
-    output: {
-      filename: 'bundle.js'
-    }
-  }*/
 
   var firebaseConfig = {
     apiKey: "AIzaSyBpkeHthpTxPgv9VTgpj60iubinssKYkFk",
