@@ -1,7 +1,6 @@
 # Delivery_Medicine
 
 ## **1. 프로젝트 개요**
----
 
 현재 **의약품 배달**은 **불법**이지만, **블록체인**을 통해 **의약품 배달 서비스**를 **합법**으로 **전환하기 위한 프로젝트.**
 
@@ -10,7 +9,6 @@
 <br>
 
 ## **2. 프로젝트 구조**
----
 
 <p align="center"><img src = readme_material/expended_project_summary.png width = 1000 height = 400/></p>
 
@@ -34,7 +32,6 @@
 - **배송 정보**는 **Solidity**로 구현한 내용을 **출력**. -> **보안성**  
 
 ## **3. 개발 환경**  
----
 
 <table>
     <thead align="center">
