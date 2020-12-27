@@ -163,7 +163,7 @@ App = {
           var amount = parseFloat(med_cnt_price)*Math.pow(10,18);
           
           // 배송 정보 처리 
-          App.setUserAddress();
+          App.getUserAddress();
           
           return adoptionInstance.adopt(mId, {value:`${amount}`, from:account, to:adoptionInstance.address});
      
